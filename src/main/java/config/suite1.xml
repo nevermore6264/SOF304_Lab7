@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="suite1" parallel="false">
+    <test name="test1">
+        <classes>
+            <class name="TestClass1"></class>
+            <class name="TestClass2"></class>
+        </classes>
+    </test>
+    <test name="test2">
+        <classes>
+            <class name="TestClass3"></class>
+            <class name="FactoryInstantiatedTestClass"></class>
+        </classes>
+    </test>
+</suite>
